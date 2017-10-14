@@ -21,9 +21,9 @@ var http = require('http');
 http.createServer(function (req, res) {
   res.write('You rock!  You are SUPER AWESOME!'); //write a response to the client
   res.end(); //end the response
-}).listen(7000); //the server object listens on port 8080
+}).listen(7000); //the server object listens on port 7000
 
 http.createServer(function (req, res) {
   res.write('Meh.  You are kind of a dum dum'); //write a response to the client
   res.end(); //end the response
-}).listen(7500); 
+}).listen(7500); //the server object listens on port 7000
